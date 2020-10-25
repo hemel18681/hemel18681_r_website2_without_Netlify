@@ -5,63 +5,212 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Nature Tours | Home</title>
+    <title>hemel18681</title>
     <!--Ion Icons-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!--google fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--font awesome-->
+    <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
     <!--our own stylesheet-->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <div class="nav-brand">
-                    <a href="index.html">
-                        <img src="images/hemel18681.gif" alt="">
-                    </a>
-                </div>
-                <div class="menu-icons open">
-                    <i class="icon ion-md-menu"></i>
-                </div>
-                <ul class="nav-list">
-                    <div class="menu-icons close">
-                        <i class="icon ion-md-close"></i>
-                    </div>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Destinations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Booking</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">About</a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>hemel18681</h1>
+            <h5>Competitive Programmer and Web Developer</h5>
         </div>
     </header>
-    <section class="hero">
+    <section class="about id">
         <div class="container">
-            <div class="main-message">
-                <h3>The great outdoor</h3>
-                <h1>Adventure</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, maxime. Accusamus explicabo dolore voluptas rem dolor. Temporibus nemo vero labore.</p>
-                <div class="cta">
-                    <a href="" class="btn">Book Now</a>
+            <div class="profile-img">
+                <img src="images/#" alt="">
+            </div>
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore magni similique iure quam vero sapiente. Quam atque libero saepe in, culpa velit necessitatibus obcaecati. Consequuntur hic eius id reprehenderit vitae!</p>
+            </div>
+            <div class="social-media">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-linkedin-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Competitive Programmer</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-code-group"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-chart-group"></i>
+                    </div>
+                    <h1>AI and Machine Learning</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View some of my recent work</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/#" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h6>Web Development</h6>
+                    <h1>Blog Website</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description">
+                    <h6>Object Detection</h6>
+                    <h1>OpenCV ML Python</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#">View Details</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="images/#" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/#" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h6>Web Development</h6>
+                    <h1>IITS Programming Club .Net</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Experience</h1>
+                <h6>Passed and Current places</h6>
+            </div>
+            <div class="timeline">
+                <ul>
+                    <li class="date" data-date="2020-Present">
+                        <h1>IITS Programmin Club</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2019-2020">
+                        <h1>IITS Programmin Club</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2019-2020">
+                        <h1>IITS Programmin Club</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Experience</h1>
+                <h6>Passed and Current places</h6>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javasctipt" src="scripts.js"></script>
 </body>
 
