@@ -659,6 +659,9 @@ input[type="submit"]:hover {
     .timeline .date::after {
         left: -5.9rem;
     }
+    .gotoMain .mes {
+        font-size: 4rem;
+    }
 }
 
 @media screen and (max-width:600px) {
