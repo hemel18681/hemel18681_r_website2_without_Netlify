@@ -620,6 +620,10 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width:600px) {
+    .portfolio-img {
+        width: 40rem;
+        flex: 1;
+    }
     .menu-toggler {
         top: 2rem;
         right: 2rem;
