@@ -568,7 +568,7 @@ input[type="submit"]:hover {
 
 /* media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
     .landing-text img {
         width: 150px;
         height: auto;
@@ -578,7 +578,7 @@ input[type="submit"]:hover {
         font-size: 10rem;
     }
     .landing-text h5 {
-        font-size: 1.7rem;
+        font-size: 3rem;
     }
     .nav-list {
         flex-direction: column;
@@ -632,7 +632,7 @@ input[type="submit"]:hover {
         font-size: 6rem;
     }
     .landing-text h5 {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
     .nav-link {
         font-size: 3.5rem;
