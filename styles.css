@@ -5,6 +5,12 @@
     src: url('the_historia/TheHistoriaDemo.ttf');
 }
 
+.swal-modal {
+    border: 3px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
