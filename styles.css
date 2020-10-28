@@ -29,6 +29,7 @@ body {
     background: url("images/bg1.jpeg") no-repeat center fixed;
     background-size: cover;
     user-select: none;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 a {
@@ -49,46 +50,8 @@ img {
     width: 100%;
 }
 
-.gotoMain .mes {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    z-index: 1;
-    font-size: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'Roboto', sans-serif;
-}
-
-.gotoMain .go {
-    list-style: none;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 li {
     margin: 0 2rem;
-}
-
-.gotoMain .go {
-    font-family: historia;
-    font-size: 5rem;
-    padding: 1rem;
-}
-
-.gotoMain .go :hover,
-.gotoMain .go :focus {
-    background: linear-gradient(to top, #ffe838, #fd57bf);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 
