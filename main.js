@@ -29,11 +29,20 @@ function boxMes() {
     var email = document.getElementById('email').value;
     var service = document.getElementById('service').value;
     var message = document.getElementById('message').value;
-    if (name.length != 0 && email.length != 0 && service.length != 0 && message.length != 0) {
+    var subject = document.getElementById('subject').value;
+    if (name.length != 0 && email.length != 0 && service.length != 0 && message.length != 0 && subject.length != 0) {
+        var frm = document.getElementsByName('contact-form')[0];
+        frm.submit(); // Submit the form
+        //frm.reset() // Reset all form data
         swal({
-            title: "Thank You",
+            title: "Thank You.!",
             text: "Your Message has been delivered.",
-            icon: "success",
+            icon: "success"
+        }).then(okay => {
+            if (okay) {
+                window.location.href = "https://hemel18681.github.io/hemel18681_r_website2/";
+            }
         });
+
     }
 }
