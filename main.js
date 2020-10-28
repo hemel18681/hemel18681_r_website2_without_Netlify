@@ -40,7 +40,7 @@ function boxMes() {
             icon: "success"
         }).then(okay => {
             if (okay) {
-                window.location.href = "https://hemel18681.github.io/hemel18681_r_website2/";
+                window.location.href = "https://hemel18681.github.io/hemel18681_r_website2/#contact";
             }
         });
 
