@@ -33,12 +33,12 @@ function boxMes() {
     if (name.length != 0 && email.length != 0 && service.length != 0 && message.length != 0 && subject.length != 0) {
         var frm = document.getElementsByName('contact-form')[0];
         frm.submit(); // Submit the form
-        //frm.reset() // Reset all form data
         swal({
             title: "Thank You.!",
             text: "Your Message has been delivered.",
             icon: "success"
         }).then(okay => {
+            frm.reset() // Reset all form data
             if (okay) {
                 window.location.href = "https://hemel18681.github.io/hemel18681_r_website2/#contact";
             }
