@@ -685,3 +685,8 @@ input[type="submit"]:hover {
         right: 2rem;
     }
 }
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}

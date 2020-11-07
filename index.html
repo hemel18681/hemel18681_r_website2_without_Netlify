@@ -225,7 +225,11 @@
                 <h1>Contact</h1>
                 <h6>Let's work together</h6>
             </div>
-            <form name="contact-form" id="myForm" action="https://script.google.com/macros/s/AKfycbw59UKQ6RpsLqTAheB4uz8gSQaTlnE1RwsqUpLihNdG_mZrRQ8/exec" data-email="hemel18103112@gmail.com" method="POST" data-aos="fade-up" data-aos-delay="300" target="_blank">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" netlify-honeypot="bot-field" value="contact">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name..." required>
                 <label for="email">Email:</label>
@@ -241,7 +245,7 @@
                 </select>
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" cols="10" rows="10" required></textarea>
-                <input onclick="boxMes();" type="submit" value="Submit">
+                <input type="submit" value="Submit">
             </form>
         </div>
     </section>
